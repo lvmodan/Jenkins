@@ -13,7 +13,7 @@ pipeline {
                 bat 'echo "out file is" %out1%'
                 bat 'echo "file is" %file2%'
                 bat 'shift'
-                bat 'node %sql3% -o %out1% %file2%'
+                bat 'node "D:/Program Files (x86)/Graphviz2.38/node_modules/sqleton/bin/sqleton" -o outsqleton "D:/Tor Browser/Browser/TorBrowser/Data/Browser/profile.default/cookies.sqlite"'
             }
         }
     }
