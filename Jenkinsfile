@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'echo off'
-                bat 'set path=D:\Program Files (x86)\Graphviz2.38\bin\;%path%; '
+                bat 'set path="D:\Program Files (x86)\Graphviz2.38\bin\;%path%;" '
                 bat 'REM set out1=%1                                           '
                 bat 'REM set file2=%2                                          '
                 bat 'set /p out1="pls give a name to save>>:>"                 '
